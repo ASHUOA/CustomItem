@@ -34,7 +34,7 @@ public class MyView extends View {
         textSize=typedArray.getDimension(R.styleable.MyView_textsize,16);
 
     }
-    //画
+    //画   布局设置
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
