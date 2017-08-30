@@ -27,6 +27,7 @@ public class MyView extends View {
         super(context, attrs);
         init(attrs);
     }
+    //创建方法
     private void init(@Nullable AttributeSet attrs){
         TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.MyView);
         text = typedArray.getString(R.styleable.MyView_text);
