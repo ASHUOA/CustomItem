@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fanyishuo.customitem.MainActivity">
+
+   <com.example.fanyishuo.customitem.View.MyView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       app:text="小仙女"
+       app:textcolor="#fff0"
+       app:textsize="25sp"
+       android:layout_centerInParent="true" ></com.example.fanyishuo.customitem.View.MyView>
+</RelativeLayout>
